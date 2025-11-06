@@ -1,0 +1,39 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+*.egg-info/
+
+# Build files
+build/
+dist/
+*.exe
+*.spec
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Node modules
+node_modules/
+
+# Vercel
+.vercel
+
+# Large files
+installer_output/
+SKSU_ISULAN_QRCODES_ORGANIZED/
+Generated_QR_Codes/
+Attendance_Records/
+Sessions/
+*.xlsx
