@@ -1,19 +1,8 @@
 {
   "version": 2,
   "name": "intelliqr-scanner",
-  "builds": [
-    {
-      "src": "website/**",
-      "use": "@vercel/static"
-    }
-  ],
-  "routes": [
-    {
-      "src": "/(.*)",
-      "dest": "/website/$1"
-    }
-  ],
-  "github": {
-    "silent": true
-  }
+  "buildCommand": "echo 'No build needed'",
+  "outputDirectory": "website",
+  "cleanUrls": true,
+  "trailingSlash": false
 }
